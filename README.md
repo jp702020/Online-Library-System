@@ -50,5 +50,15 @@ The application allows users to browse books by category, view book details, sea
 
 ---
 
-## 🗂️ Project Structure
+
+---
+
+## ▶️ How to Run the Project
+
+Follow these steps to run the application locally:
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+
 
