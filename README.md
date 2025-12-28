@@ -59,10 +59,20 @@ Follow these steps to run the application locally:
 
 1. Clone the repository:
    ```bash
-   1)git clone <repository-url>
-   2)cd online-library-system
-   3)npm install
-   4)npm run dev
-   5)http://localhost:5173
-   
+   git clone <repository-url>
 
+2. Navigate to the project folder:
+   ```bash
+   cd online-library-system
+
+3. Install dependencies:
+   ```bash
+   npm install
+
+4. Start the development server:
+    ```bash
+    npm run dev
+
+5. Open the browser and visit:
+    ```bash
+    http://localhost:5173
