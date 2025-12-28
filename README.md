@@ -1,16 +1,54 @@
-# React + Vite
+# 📚 Online Library System (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple **Online Library System** built using **React** and **Vite**.  
+The application allows users to browse books by category, view book details, search books, and add new books using **Redux** for state management.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack Used
 
-## React Compiler
+- React (Functional Components & Hooks)
+- Vite (Project Setup)
+- React Router DOM (Routing & Dynamic Routes)
+- Redux Toolkit (State Management)
+- React Redux
+- CSS (for styling)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🏠 Home Page
+- Welcome message
+- List of book categories (Fiction, Non-Fiction, Sci-Fi, etc.)
+- Popular books displayed as cards
+- Navigation bar with links to Home, Browse Books, and Add Book
+
+### 📖 Browse Books
+- Displays books using dummy data
+- Filter books by category using dynamic routing (`/books/:category`)
+- Search books by title or author
+- “View Details” option for each book
+
+### 📘 Book Details
+- Dynamic route to show book details
+- Displays title, author, description, and rating
+- Back button to return to Browse Books page
+
+### ➕ Add Book
+- Form to add a new book
+- Redux used to manage the books list
+- Form validation for all fields
+- After submission, redirects to Browse Books page
+- Newly added book appears at the top of the list
+
+### ❌ 404 Page
+- Handles undefined routes
+- Displays invalid URL
+- Link to navigate back to Home page
+- Does not include the Navbar component
+
+---
+
+## 🗂️ Project Structure
+
